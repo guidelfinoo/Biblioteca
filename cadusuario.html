@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+    <link rel="stylesheet" type="text/css" href="formususprint2.css">
+</head>
+
+<body>
+    <center>
+        <h1>Cadastrar Usuário</h1>
+    </center>
+    <main>
+        <section>
+            <form method="post" action="cadusuario.php">
+                <fieldset>
+                    <p>Dados do Usuário</p>
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required> <br><br>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="a@a.com" required> <br> <br>
+                    <label for="telefone">CPF</label>
+                    <input type="number" id="CPF" name="cpf" placeholder="XXX XXX XXX XX" required> <br><br>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required> <br><br>
+                    <label for="location">CEP</label>
+                    <input type="location" id="CEP" name="cep" placeholder="XX XXX XXX"> <br> <br>
+                </fieldset>
+                <br>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+        <br>
+        <button onclick="location.href='#'">Voltar</button>
+        <hr>
+    </main>
+    <footer>
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Copyright 2024 - Biblioteca - Virtual</p>
+    </footer>
+    <meta name="description"
+        content="Ao escrever uma meta tag, use entre 140 e 160 caracteres para que o Google possa exibir toda a sua mensagem. Não se esqueça de incluir sua palavra-chave!">
+    </center>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    </form>
+    </main>
+</body>
+
+</html>

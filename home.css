@@ -1,0 +1,44 @@
+.central {
+    background-color: rgb(255, 255, 246);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+} 
+
+body{
+    margin: 0;
+}
+#pond{
+    display: flex;
+    margin-top: -3.3%;
+    margin-right: -20px;
+    height: 100%;
+}  
+button{
+    background-color: rgb(255, 255, 246); 
+    color: rgb(0, 0, 0); 
+    padding: 10px 32px; 
+    text-align: center; 
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+header {
+    background-color: rgb(218,201,164); 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    margin-left: 15px; 
+}
+
+header a:hover {
+    text-decoration: underline; 
+}

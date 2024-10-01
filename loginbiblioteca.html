@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="loginsprint2.css">
+</head>
+
+<body>
+    <center>
+        <h1>Login, Biblioteca&#x1F513;</h1>
+    </center>
+    <hr>
+    <p>Coloque as informações a seguir para efetuar o Login&#x1F511;</p>
+    <div>
+        <form method="post" action="login.php">
+            <fieldset>
+                <legend><strong>informações Pessoais</strong></legend>
+                <form action="#">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required>
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="a@a.com" required>
+                    <br>
+                    <br>
+                    <label for="senha">Senha:</label>
+                    <input type="text" name="senha" placeholder="Digite sua senha" required>
+                    <br>
+                    <br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    <br>
+                    <br>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="CPF" placeholder="XXX.XXX.XXX-XX" required>
+                    <br>
+                    <br>
+                    <input type="radio" name="opção" id="opção-sim" value="Funcionário" checkedrequired />
+                    <label for="opção-sim">Funcionário(a)</label>
+                    <input type="radio" name="opção" id="opção-sim" value="Usuário/Cliente" checked required />
+                    <label for="opção-sim">Usuário/Aluno(a)</label>
+                </form>
+            </fieldset>
+            <br>
+            <br>
+            <a href="cadlivros.html">
+                <button type="Efetuar">Efetuar Login</button>
+            </a>
+            <br>
+            <br>
+            <a href="home.html">
+                <button type="Voltar">Voltar</button>
+            </a>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+        </form>
+        </main>
+    </div>
+</body>
+
+</html>

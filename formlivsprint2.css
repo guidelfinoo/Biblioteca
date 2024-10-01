@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(218, 201, 164);
+}
+
+fieldset{
+    background-color: rgb(255, 255, 246);
+}
+
+footer{
+    background-color: rgb(218, 201, 164);
+    color: rgb(0, 0, 0);
+}
+
+button{
+    background-color: rgb(255, 255, 246);
+}
